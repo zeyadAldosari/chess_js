@@ -22,8 +22,8 @@ class Game {
     this.thinkDown.addEventListener("click", () => {
       this.toggleDropDown("thinks");
     });
-    // this.parseHandler(this.gameBoard.START_FEN);
-    this.parseHandler(this.gameBoard.TEMP_FEN);
+    this.parseHandler(this.gameBoard.START_FEN);
+    // this.parseHandler(this.gameBoard.TEMP_FEN);
     // this.parseHandler("1q6/2b2ppb/4p1k1/7p/2Np1p1P/3P1Q2/6PK/8 w - - 0 1");
     // this.parseHandler("8/8/3K4/3p4/8/8/3q1k2/1q6 b - - 0 1");
     // this.parseHandler(this.gameBoard.MATE_FEN);
