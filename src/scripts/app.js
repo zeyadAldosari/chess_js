@@ -221,7 +221,7 @@ class Game {
     if (gameBoard.end !== 0) {
       url = "end"
     }
-    const moveSound = new Audio(`../sounds/${url}.mp3`);
+    const moveSound = new Audio(`./sounds/${url}.mp3`);
     moveSound.play();
   }
   moveHandler(move = this.gameBoard.noMove) {
