@@ -109,7 +109,7 @@ class Game {
       const pce = gameBoard.PIECE_CHAR[gameBoard.pieces[sq120]];
       if (pce != gameBoard.PIECE_CHAR[gameBoard.PIECES.EMPTY]) {
         const pceImg = document.createElement("img");
-        pceImg.src = `..\\pics\\${pce}.svg`;
+        pceImg.src = `.\\pics\\${pce}.svg`;
         sq.append(pceImg);
         pceImg.parentElement.classList.add("cursor-pointer");
         pceImg.parentElement.addEventListener("click", this.boundedDHandlers);
