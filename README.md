@@ -2,7 +2,7 @@
 
 **Overview**
 
-This project is a JavaScript-based chess engine that can generate legal moves, evaluate positions, and play a complete game of chess. It is designed to be both educational and functional, providing a solid foundation for anyone looking to learn more about chess programming or to expand their own chess-related projects.
+This project is a JavaScript chess engine that can generate legal moves, evaluate positions, and play a complete game of chess. It is designed to be both educational and functional, providing a solid foundation for anyone looking to learn more about chess programming or to expand their own chess-related projects.
 
 **Features**
 
